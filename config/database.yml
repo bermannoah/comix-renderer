@@ -1,0 +1,13 @@
+# specify which database and adapter to use for which environment
+
+development:
+  adapter: postgresql
+  database: comix-renderer-development
+
+test:
+  adapter: postgresql
+  database: comix-renderer-test
+
+production:
+  adapter: postgresql
+  database: comix-renderer-production
